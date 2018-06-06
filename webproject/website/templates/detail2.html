@@ -1,0 +1,14 @@
+{% extends 'detail.html' %}
+
+{% block content %}
+<div class="house-detail">
+    <div class="house">
+    <img src="{{house.thumb.url}}"/>
+        <p>{{house.name}}</p> 
+        <p>{{house.country}}</p> 
+        <p>{{house.owner}}</p>
+        <p>{{house.genre}}</p>
+        <p>{{house.body}}</p>
+    </div>
+</div> 
+{% endblock %}

@@ -1,0 +1,253 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Houses</title>
+
+  <!-- Bootstrap -->
+  <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+  <link href="{% static 'css/prettyPhoto.css' %}" rel="stylesheet">
+  <link href="{% static 'css/style.css' %}" rel="stylesheet" />
+  <!-- =======================================================
+    Theme Name: Company
+    Theme URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+            <div class="navbar-brand">
+              <a href="index.html"><h1><span>Com</span>pany</h1></a>
+            </div>
+          </div>
+
+          <div class="navbar-collapse collapse">
+            <div class="menu">
+              <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation"><a href="index.html">Home</a></li>
+                <li role="presentation"><a href="about.html">About Us</a></li>
+                <li role="presentation"><a href="services.html">Services</a></li>
+                <li role="presentation"><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li role="presentation"><a href="blog.html">Blog</a></li>
+                <li role="presentation"><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="breadcrumb">
+    <div class="container">
+      <div class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li>Portfolio</li>
+      </div>
+    </div>
+  </div>
+
+  <section id="portfolio">
+    <div class="container">
+      <div class="center">
+        <p>You can find your dream house here just click one of them</p>
+      </div>
+
+      <ul class="portfolio-filter text-center">
+        <li><a class="btn btn-default active" href="#" data-filter="*">Recent Houses</a></li>
+        <li><a class="btn btn-default" href="#" data-filter=".bootstrap">Most Viewed</a></li>
+        <li><a class="btn btn-default" href="#" data-filter=".html">Most Researched</a></li>
+        <li><a class="btn btn-default" href="#" data-filter=".wordpress">Recommended</a></li>
+      </ul>
+      <!--/#portfolio-filter-->
+    </div>
+    <div class="container">
+      <div class="">
+        <div class="portfolio-items">
+          <div class="portfolio-item apps col-xs-12 col-sm-4 col-md-3">
+            <div class="recent-work-wrap">
+              <img class="img-responsive" src="{% static 'images/portfolio/recent/33130c63_original.jpg' %}" alt="">
+              <div class="overlay">
+                <div class="recent-work-inner">
+                  <h3><a href="/Houses">Stunning All Bamboo House on Pristine Valley edge</a></h3>
+                  <p>Selected as one of Airbnb's top picks, Sunrise house has been delighting its guests and celebrities from all over. In such a tranquil setting, often with a gentle breeze blowing, our guests are soothed into sitting back, relaxing and marveling.</p>
+                  <a class="preview" href="{% static 'images/portfolio/full/33130c63_original.jpg' %}" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/.portfolio-item-->
+
+          <div class="portfolio-item joomla bootstrap col-xs-12 col-sm-4 col-md-3">
+            <div class="recent-work-wrap">
+              <img class="img-responsive" src="{% static 'images/portfolio/recent/ac9e3d82-e064-4111-bd88-e9abb697ef1f.jpg' %}" alt="">
+              <div class="overlay">
+                <div class="recent-work-inner">
+                  <h3><a href="/Houses">The Cozy Palace</a></h3>
+                  <p>Let this be your Unique experience in Marrakech!</p>
+                  <a class="preview" href="{% static 'images/portfolio/full/ac9e3d82-e064-4111-bd88-e9abb697ef1f.jpg' %}" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/.portfolio-item-->
+
+          <div class="portfolio-item bootstrap wordpress col-xs-12 col-sm-4 col-md-3">
+            <div class="recent-work-wrap">
+              <img class="img-responsive" src="{% static 'images/portfolio/recent/b04eddeb_original.jpg' %}" alt="">
+              <div class="overlay">
+                <div class="recent-work-inner">
+                  <h3><a href="/Houses">Loft Studio in the Central Area</a></h3>
+                  <p>A great studio in the central areal of Moscow suitable both for travellers and businessmen. It is fully equipped with all you might need and freshly renovated.</p>
+                  <a class="preview" href="{% static 'images/portfolio/full/b04eddeb_original.jpg' %}" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/.portfolio-item-->
+
+          <div class="portfolio-item joomla wordpress apps col-xs-12 col-sm-4 col-md-3">
+            <div class="recent-work-wrap">
+              <img class="img-responsive" src="{% static 'images/portfolio/recent/b41736ff_original.jpg' %}" alt="">
+              <div class="overlay">
+                <div class="recent-work-inner">
+                  <h3><a href="/Houses">CHARMING HOUSE Seaside and Pine Forest</a></h3>
+                  <p>The Villa Amani is located in Labenne, surrounded by the pine trees, on the edge of the Aquitany" Landes" forest, between Hossegor / Capbreton and Bayonne / Biarritz. Atlantic Ocean 2.5km, watched beach and endless dunes, a Surf Paradise. Numerous Golf Clubs within 30km. 
+All shops and services nearby.</p>
+                  <a class="preview" href="{% static 'images/portfolio/full/b41736ff_original.jpg' %}" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/.portfolio-item-->
+
+          <div class="portfolio-item joomla html bootstrap col-xs-12 col-sm-4 col-md-3">
+            <div class="recent-work-wrap">
+              <img class="img-responsive" src="{% static 'images/portfolio/recent/c7b4c7d8_original.jpg' %}" alt="">
+              <div class="overlay">
+                <div class="recent-work-inner">
+                  <h3><a href="/Houses">Tile House</a></h3>
+                  <p>This a rural desert location. The Tile House is a magical place. A vortex in the desert of love and space. This is the place to retreat and unwind, find yourself, breathe and explore. Not available or appropriate for parties or large gatherings. A spot to meditate, cook, and watch the sky, the clouds and stars at night. A healing, colorful environment for rejuvenating your spirit and soul.</p>
+                  <a class="preview" href="{% static 'images/portfolio/full/c7b4c7d8_original.jpg' %}" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/.portfolio-item-->
+
+          <div class="portfolio-item wordpress html apps col-xs-12 col-sm-4 col-md-3">
+            <div class="recent-work-wrap">
+              <img class="img-responsive" src="{% static 'images/portfolio/recent/d2f4922f-f805-47d3-8d7a-4c350f1e5625.jpg' %}" alt="">
+              <div class="overlay">
+                <div class="recent-work-inner">
+                  <h3><a href="/Houses">The Pondhouse - A Magical Place</a></h3>
+                  <p>Relax, rejuvenate and unplug in this ultimate rustic getaway experience in the country. In our beautiful screened Pondhouse, you can gaze at the stars and listen to the sounds of nature from your cozy warm bed.</p>
+                  <a class="preview" href="{% static 'images/portfolio/full/d2f4922f-f805-47d3-8d7a-4c350f1e5625.jpg' %}" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/.portfolio-item-->
+
+          <div class="portfolio-item wordpress html col-xs-12 col-sm-4 col-md-3">
+            <div class="recent-work-wrap">
+              <img class="img-responsive" src="{% static 'images/portfolio/recent/d656f7da_original.jpg' %}" alt="">
+              <div class="overlay">
+                <div class="recent-work-inner">
+                  <h3><a href="/Houses">Cozy A-Frame Cabin in the Redwoods</a></h3>
+                  <p>Enjoy peace, quiet, and beautiful views in Cazadero.
+
+For each rental, $50 will be donated to Raphael House, a San Francisco organization whose goal is to help at-risk families achieve stable housing and financial independence.</p>
+                  <a class="preview" href="{% static 'images/portfolio/full/d656f7da_original.jpg' %}" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/.portfolio-item-->
+
+          <div class="portfolio-item wordpress html bootstrap col-xs-12 col-sm-4 col-md-3">
+            <div class="recent-work-wrap">
+              <img class="img-responsive" src="{% static 'images/portfolio/recent/e9e5d6da_original.jpg' %}" alt="">
+              <div class="overlay">
+                <div class="recent-work-inner">
+                  <h3><a href="/Houses">White Breeze Pool 1BD Apartment</a></h3>
+                  <p>1 bedroom apartment with a king size bed, bathroom, a kitchen and dining/living area with a pull out sofa. It has a direct access from the bedroom to the pool which is shared with only 2 more apartments.</p>
+                  <a class="preview" href="{% static 'images/portfolio/full/e9e5d6da_original.jpg' %}" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/.portfolio-item-->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/#portfolio-item-->
+
+
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="social-icon">
+          <div class="col-md-4">
+            <ul class="social-network">
+              <li><a href="https://www.facebook.com/PropertyMavens/" class="fb tool-tip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://twitter.com/propertymaven_" class="twitter tool-tip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://twitter.com/propertymaven_" class="gplus tool-tip" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="https://www.youtube.com/user/PropertyMavens" class="linkedin tool-tip" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://www.youtube.com/user/PropertyMavens" class="ytube tool-tip" title="You Tube"><i class="fa fa-youtube-play"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-md-offset-4">
+          <div class="copyright">
+            &copy; Company Theme. All Rights Reserved.
+            <div class="credits">
+              <!--
+                All the links in the footer should remain intact.
+                You can delete the links only if you purchased the pro version.
+                Licensing information: https://bootstrapmade.com/license/
+                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Company
+              -->
+              <a href="https://www.propertymavens.com.au/">Miriam Sandkuhler</a> by <a href="https://www.propertymavens.com.au/">Property Maverns</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pull-right">
+        <a href="#home" class="scrollup"><i class="fa fa-angle-up fa-3x"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="{% static 'js/jquery-2.1.1.min.js' %}"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'js/jquery.prettyPhoto.js' %}"></script>
+  <script src="{% static 'js/jquery.isotope.min.js' %}"></script>
+  <script src="{% static 'js/wow.min.js' %}"></script>
+  <script src="{% static 'js/functions.js' %}"></script>
+
+</body>
+
+</html>

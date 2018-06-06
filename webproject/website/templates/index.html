@@ -1,0 +1,286 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Miriam Sandkuhler|Propert Advisor and Buyer</title>
+
+  <!-- Bootstrap -->
+  <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+  <link href="{% static 'css/prettyPhoto.css' %}" rel="stylesheet">
+  <link href="{% static 'css/style.css' %}" rel="stylesheet" />
+  <!-- =======================================================
+    Theme Name: Company
+    Theme URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+            <div class="navbar-brand">
+              <a href="index.html"><h1><span>Miriam</span>Sandkuhler</h1></a>
+            </div>
+          </div>
+
+          <div class="navbar-collapse collapse">
+            <div class="menu">
+              <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation"><a href="index.html" class="active">Home</a></li>
+                <li role="presentation"><a href="about.html">About Us</a></li>
+                <li role="presentation"><a href="services.html">Services</a></li>
+                <li role="presentation"><a href="portfolio.html">Portfolio</a></li>
+                <li role="presentation"><a href="blog.html">Blog</a></li>
+                <li role="presentation"><a href="contact.html">Contact</a></li>
+                <li role="presentation"><a href="/accounts/signup">Sign up</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="main-slider" class="no-margin">
+    <div class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item active" style="background-image: url({% static 'images/slider/bg1.jpg' %})">
+          <div class="container">
+            <div class="row slide-margin">
+              <div class="col-sm-6">
+                <div class="carousel-content">
+                  <h2 class="animation animated-item-1">Property<span>Mavens</span></h2>
+                  <p class="animation animated-item-2">At Property Mavens, Melbourne's leading buyer's agents, we provide clients with the independent property advice they need to buy the property that’s right for them. </p>
+                  <a class="btn-slide animation animated-item-3" href="read_more.html">Read More</a>
+                </div>
+              </div>
+
+              <div class="col-sm-6 hidden-xs animation animated-item-4">
+                <div class="slider-img">
+                  <img src="{% static 'images/slider/img3.png' %}" class="img-responsive">
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!--/.item-->
+      </div>
+      <!--/.carousel-inner-->
+    </div>
+    <!--/.carousel-->
+  </section>
+  <!--/#main-slider-->
+
+  <div class="feature">
+    <div class="container">
+      <div class="text-center">
+        <div class="col-md-3">
+          <div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <i class="fa fa-book"></i>
+            <h2>Full Responsive</h2>
+            <p>When we working on a jop we are very responsive.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <i class="fa fa-laptop"></i>
+            <h2>Property Investors</h2>
+            <p>Just 8% of properties have what it takes to grow faster than the market and hold their own during downturns.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+            <i class="fa fa-heart-o"></i>
+            <h2>Home Buyers</h2>
+            <p>Buying the right home in an expensive city like Melbourne can be really difficult. But with Property Mavens, you can be in a home that meets your budget and criteria sooner.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms">
+            <i class="fa fa-cloud"></i>
+            <h2>Tıme Sensitive</h2>
+            <p>We are always trying to find to best place for your need as possible as soon.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="about">
+    <div class="container">
+      <div class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <h2>About Us</h2>
+        <img src="{% static 'images/6.jpg' %}" class="img-responsive" />
+        <p>About Us
+Property Mavens is Melbourne’s leading independent property advisory firm.
+
+Offering award winning buyer advocacy and property investment advice services to time poor professionals, anxious investors and frustrated home buyers in need of timely, professional and profitable property outcomes.
+
+We provide a range of services including researching, sourcing, assessing and acquiring property both off and pre market via our well established agent networks.
+
+At Property Mavens you can be assured the information you are given is based on decades of experience and extensive research to ensure we only recommend high performing investment grade properties.  
+
+An experienced real estate agency, Property Mavens provides you with the unbiased and independent evidence you need, to support your buying decisions.
+
+Applying well-honed analytical and negotiation skills for investors, our client’s earn up to 40% capital growth per annum. We do not sell or recommend new or off the plan properties to our clients and we provide genuine independent and licensed buyer advocacy solutions.
+
+Applying multiple skill sets for homebuyers, we help you to select the right property, for the right price and we protect clients from overpaying. Because your home is your biggest asset, we also ensure your property has strong underlying investment fundamentals. 
+
+We also provide Property Portfolio Reviews and select Vendor Advocacy services.
+        </p>
+      </div>
+
+      <div class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+        <h2>Let us introduce ourself</h2>
+        <p>Founded in 2012 by CEO, Accredited Property Investment Advisor and bestselling author Miriam Sandkuhler, Property Mavens was established after Miriam spent 15 years working in the financial services and real estate sectors, after she spotted the need for a calculated approach to be applied to direct property investing. Having received poor, costly and biased advice from selling agents and unqualified ‘advisors’ during her own investing experiences, Miriam wanted to ensure her clients received qualified, independent and unbiased advice that would lead to smarter and more profitable investing decisions and results.
+          <p>Miriam also recognised the demand for and lack of female advisors and buyer agents in the marketplace and the need for a balanced feminine style to be applied to the profession.
+          </p>
+          <p>By taking a financial planning approach to property investing and applying a buy and hold strategy for investors,  we have guided and facilitated hundreds of clients in purchasing high performing investment grade property, which delivers high returns and stable tenancies.
+
+We understand that the property buying process can be time consuming, overwhelming and frustrating. There is so much conflicting advice in the market place that it is hard to decipher truth from fiction.
+
+That’s where we come in. The Property Mavens team can take away your pain, frustration and confusion and make life easier for you by applying our professional and timely Maven Method ™ and our 57 point Checklist. We guide you, do all the work for you and provide you with evidence based recommendations to make profitable purchasing decisions easy. 
+
+We secure property for 90% of our clients within 4 weeks of engaging our services.  </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="lates">
+    <div class="container">
+      <div class="text-center">
+        <h2>Lates News</h2>
+      </div>
+      <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <img src="{% static 'images/img-1.jpeg' %}" class="img-responsive" />
+        <h3>Template built with Twitter Bootstrap</h3>
+        <p>Jemimah chats with Ham & High property editor India Block about the local market, how and what to buy, and what to do about the UK's housing crisis. Published in print and online June 2017, and written by property editor India Block.
+        </p>
+      </div>
+
+      <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+        <img src="{% static 'images/img-1.png' %}" class="img-responsive" />
+        <h3>Template built with Twitter Bootstrap</h3>
+        <p>The Cambridge Independent’s property magazine ‘Homes Cambridge’ featured Jemimah on a double page spread discussing the local market, and giving her advice to buyers & sellers. 
+Published on May 4th 2017. Written by Homes’ property editor Adrian Peel.
+        </p>
+      </div>
+
+      <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+        <img src="{% static 'images/zdxfrsedrf.jpg' %}" class="img-responsive" />
+        <h3>Template built with Twitter Bootstrap</h3>
+        <p>Homes magazine Kenya is luxury monthly with a focus on home trends and international property & lifestyle. In this edition Homes interviews Jemimah about the ins and outs of buying a home in London.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <section id="partner">
+    <div class="container">
+      <div class="center wow fadeInDown">
+        <h2>Our Partners</h2>
+        <p>We are collobrating with diffrent kind of compnies to find best place for you <br> then we can grow more and more fast together</p>
+      </div>
+
+      <div class="partners">
+        <ul>
+          <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="{% static 'images/partners/partner1.png' %}"></a></li>
+          <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="{% static 'images/partners/partner2.png' %}"></a></li>
+          <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="{% static 'images/partners/partner3.png' %}"></a></li>
+          <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" src="{% static 'images/partners/partner4.png' %}"></a></li>
+          <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" src="{% static 'images/partners/partner5.png' %}"></a></li>
+        </ul>
+      </div>
+    </div>
+    <!--/.container-->
+  </section>
+  <!--/#partner-->
+
+  <section id="conatcat-info">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="media contact-info wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="pull-left">
+              <i class="fa fa-phone"></i>
+            </div>
+            <div class="media-body">
+              <h2>Have a question or need a custom quote?</h2>
+              <p>Thank you for your contact.  One of our friendly team members will respond promptly to your request. +61 3 9988 2266</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/.container-->
+  </section>
+  <!--/#conatcat-info-->
+
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="social-icon">
+          <div class="col-md-4">
+            <ul class="social-network">
+              <li><a href="https://www.facebook.com/PropertyMavens/" class="fb tool-tip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://twitter.com/propertymaven_" class="twitter tool-tip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://twitter.com/propertymaven_" class="gplus tool-tip" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="https://www.linkedin.com/company/maven-properties-llc" class="linkedin tool-tip" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://www.youtube.com/user/PropertyMavens" class="ytube tool-tip" title="You Tube"><i class="fa fa-youtube-play"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-md-offset-4">
+          <div class="copyright">
+            &copy; Company Theme. All Rights Reserved.
+            <div class="credits">
+              <!--
+                All the links in the footer should remain intact.
+                You can delete the links only if you purchased the pro version.
+                Licensing information: https://bootstrapmade.com/license/
+                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Company
+              -->
+              <a href="https://www.propertymavens.com.au/">Miriam Sandkuhler</a> by <a href="https://www.propertymavens.com.au/">Property Mavens</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pull-right">
+        <a href="#home" class="scrollup"><i class="fa fa-angle-up fa-3x"></i></a>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="{% static 'js/jquery-2.1.1.min.js' %}"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'js/jquery.prettyPhoto.js' %}"></script>
+  <script src="{% static 'js/jquery.isotope.min.js' %}"></script>
+  <script src="{% static 'js/wow.min.js' %}"></script>
+  <script src="{% static 'js/functions.js' %}"></script>
+
+</body>
+
+</html>

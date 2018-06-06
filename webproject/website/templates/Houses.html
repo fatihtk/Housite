@@ -1,0 +1,16 @@
+{% extends 'detail.html'%}
+{% load static %}
+
+<link href="{% static 'css/style.css' %}" rel="stylesheet" />
+{% block content %}
+        <p>House list</p>
+        <div class="house">
+            {% for house in houses %} 
+                <div class="house">
+                </li>><a href="{% url 'detail' house_name=house.house_name %}">{{house.house_name}}</h2></p>  
+                <p>{{house.owner}}</p>
+                <p>{{house.genre}}</p>  
+        </div>
+            {% endfor %}   
+        </div>    
+ {% endblock %} 

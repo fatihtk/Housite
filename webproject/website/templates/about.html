@@ -1,0 +1,206 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>about</title>
+
+  <!-- Bootstrap -->
+  <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+  <link href="{% static 'css/prettyPhoto.css' %}" rel="stylesheet">
+  <link href="{% static 'css/style.css' %}" rel="stylesheet" />
+  <!-- =======================================================
+    Theme Name: Company
+    Theme URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+            <div class="navbar-brand">
+              <a href="index.html"><h1><span>Miriam</span>Sandkuhler</h1></a>
+            </div>
+          </div>
+
+          <div class="navbar-collapse collapse">
+            <div class="menu">
+              <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation"><a href="index.html">Home</a></li>
+                <li role="presentation"><a href="about.html" class="active">About Us</a></li>
+                <li role="presentation"><a href="services.html">Services</a></li>
+                <li role="presentation"><a href="portfolio.html">Portfolio</a></li>
+                <li role="presentation"><a href="blog.html">Blog</a></li>
+                <li role="presentation"><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="breadcrumb">
+    <div class="container">
+      <div class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li>About Us</li>
+      </div>
+    </div>
+  </div>
+
+  <div class="aboutus">
+    <div class="container">
+      <h3>About Us</h3>
+      <hr>
+      <div class="col-md-7 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <img src="{% static 'images/7.jpg' %}" class="img-responsive">
+        <h4>Know Us Better</h4>
+        <p>Property Mavens is Melbourne’s leading independent property advisory firm.
+
+Offering award winning buyer advocacy and property investment advice services to time poor professionals, anxious investors and frustrated home buyers in need of timely, professional and profitable property outcomes. </p>
+        <p>We provide a range of services including researching, sourcing, assessing and acquiring property both off and pre market via our well established agent networks.
+
+At Property Mavens you can be assured the information you are given is based on decades of experience and extensive research to ensure we only recommend high performing investment grade properties.  
+
+An experienced real estate agency, Property Mavens provides you with the unbiased and independent evidence you need, to support your buying decisions.
+
+Applying well-honed analytical and negotiation skills for investors, our client’s earn up to 40% capital growth per annum. We do not sell or recommend new or off the plan properties to our clients and we provide genuine independent and licensed buyer advocacy solutions.
+
+Applying multiple skill sets for homebuyers, we help you to select the right property, for the right price and we protect clients from overpaying. Because your home is your biggest asset, we also ensure your property has strong underlying investment fundamentals. 
+
+We also provide Property Portfolio Reviews and select Vendor Advocacy services.</p>
+      </div>
+      <div class="col-md-5 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+        <div class="skill">
+          <h2>Our Skills</h2>
+          <p>This place is showing that process of our job.</p>
+
+          <div class="progress-wrap">
+            <h3>Investing</h3>
+            <div class="progress">
+              <div class="progress-bar  color1" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+                <span class="bar-width">85%</span>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="progress-wrap">
+            <h4>Research</h4>
+            <div class="progress">
+              <div class="progress-bar color2" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+                <span class="bar-width">95%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="progress-wrap">
+            <h4>Buying</h4>
+            <div class="progress">
+              <div class="progress-bar color3" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                <span class="bar-width">80%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="progress-wrap">
+            <h4>Delivery</h4>
+            <div class="progress">
+              <div class="progress-bar color4" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                <span class="bar-width">90%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="our-team">
+    <div class="container">
+      <h3>Our Team</h3>
+      <div class="text-center">
+        <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <img src="{% static 'images/services/1.jpg' %}" alt="">
+          <h4>Mary Doe</h4>
+          <p>Investor and researcher for houses for your request</p>
+        </div>
+        <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+          <img src="{% static 'images/services/2.jpg' %}" alt="">
+          <h4>Melise Krusher</h4>
+          <p>Researcher and buyer for your request</p>
+        </div>
+        <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+          <img src="{% static 'images/services/3.jpg' %}" alt="">
+          <h4>John Doe</h4>
+          <p>Buyer and deliver for your request</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="social-icon">
+          <div class="col-md-4">
+            <ul class="social-network">
+              <li><a href="https://www.facebook.com/PropertyMavens/" class="fb tool-tip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://twitter.com/propertymaven" class="twitter tool-tip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://twitter.com/propertymaven_" class="gplus tool-tip" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="https://www.linkedin.com/company/maven-properties-llc" class="linkedin tool-tip" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://www.youtube.com/user/PropertyMavens" class="ytube tool-tip" title="You Tube"><i class="fa fa-youtube-play"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-md-offset-4">
+          <div class="copyright">
+            &copy; Company Theme. All Rights Reserved.
+            <div class="credits">
+              <!--
+                All the links in the footer should remain intact.
+                You can delete the links only if you purchased the pro version.
+                Licensing information: https://bootstrapmade.com/license/
+                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Company
+              -->
+              <a href="https://www.propertymavens.com.au/">Miriam Sandkuhler</a> by <a href="https://www.propertymavens.com.au/">Property Mavens</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pull-right">
+        <a href="#home" class="scrollup"><i class="fa fa-angle-up fa-3x"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="{% static 'js/jquery-2.1.1.min.js' %}"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'js/jquery.prettyPhoto.js' %}"></script>
+  <script src="{% static 'js/jquery.isotope.min.js' %}"></script>
+  <script src="{% static 'js/wow.min.js' %}"></script>
+  <script src="{% static 'js/functions.js' %}"></script>
+
+</body>
+
+</html>
